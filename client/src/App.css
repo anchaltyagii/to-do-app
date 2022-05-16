@@ -1,0 +1,102 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #f5f5f5;
+  background-image: url('./list.jpg');
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: 100% 100%;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+   background: transparent;
+   background-color: #8566aa;
+   padding: 6px 0 2px 0;
+   margin-bottom: 10px;
+   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  background-color: salmon ;
+}
+
+.task_container {
+  margin: 10px 0;
+  cursor: pointer;
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+.task {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.button
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: white;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  text-align: center;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+
+}
+
+.button:hover 
+{
+  background-color: green;
+}
+
+input
+{
+  text-align: center;
+  height: 30px;
+  top:10px;
+  border:none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+
+@media  screen and (max-width: 720px) {
+  .container {
+  width: 320px;
+  min-height: 300px;
+  padding: 10px;
+  background-color: salmon ;
+}
+}
+
